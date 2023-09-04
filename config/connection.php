@@ -2,7 +2,7 @@
 
     $hostname = "localhost";
     $username = "root";
-    $password = "root";
+    $password = "";
     $db = "presensi";
 
 

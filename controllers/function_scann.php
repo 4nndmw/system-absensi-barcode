@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('ASIA/JAKARTA');
 // Koneksi ke database
-$koneksi = mysqli_connect("localhost", "root", "root", "presensi");
+$koneksi = mysqli_connect("localhost", "root", "", "presensi");
 
 if (isset($_POST['barcodeData'])) {
     $barcodeData = $_POST['barcodeData'];
